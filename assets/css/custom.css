@@ -1,0 +1,65 @@
+.logo-container {
+    display: flex;
+    gap: 14px;
+    height: 100px;
+    align-items: center;
+    line-height: 1rem !important;
+}
+
+.background-header .logo-container {
+    height: 75px !important;
+}
+
+.logo-img {
+    width: 80px;
+}
+
+.ec-logo-label {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-title {
+    color: black;
+    font-size: 18px;
+}
+
+.logo-subtitle {
+    color: rgb(63, 62, 62);
+    font-size: 14px;
+}
+
+.ec-logo-label-footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ec-logo-label-footer .logo-title {
+    color: white;
+    font-size: 18px;
+}
+
+.ec-logo-label-footer .logo-subtitle {
+    color: white;
+    font-size: 14px;
+}
+
+/* .ec-side-thumb-content {
+    background-color: black;
+} */
+
+.main-banner .right-content .right-first-image {
+    height: 375px;
+    width: 385px;
+}
+
+@media screen and (max-width: 760px) {
+    .main-banner .right-content .right-first-image {
+        height: 100%;
+        width: 100%;
+    }   
+}
